@@ -1,0 +1,147 @@
+// @font-face {
+    font-family:'fonts/geordia.ttf';
+    font-weight : 400;
+}
+@font-face {
+    font-family:'fonts/arial.ttf';
+    font-weight : 400;
+}
+@font-face {
+  font-family:'fonts/arial.ttf';
+  font-weight : 800;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Georgia, 'Arial';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+
+.logofirst {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    text-decoration:none;
+    color:#F1CDB3;
+    list-style-type: none;
+}
+.container {
+    width:1280px ;
+    margin: 0 auto;
+}
+.puppy {
+    width:1280px ;
+    margin: 0 auto;
+}
+
+.intro {
+    background-image: url(images/footer-background-1.png)
+ }
+.nav-list {
+    display: flex;
+}
+.header {
+   display: flex;
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+.logofirst {
+  width: 184px;
+  height: 35px ;
+  display: inline-block;
+}
+.nav-link {
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #CDCDCD;
+    margin-right: 0;
+}
+
+.nav-item {
+    margin-right: 35px;
+    margin-top: 30px;
+
+}
+
+.intro-about {
+    display: flex;
+    flex-direction: column;
+}
+.intro-title {
+    font-weight: 400 ;
+    font-size: 44px ;
+    line-height: 57.2px ;
+    color:#ffffff;
+    padding-bottom: 42px;
+    width: 460px;
+    height: 72px;
+    font-family: Georgia;
+    margin-left: 40px;
+}
+.intro-description {
+    font-weight: 400 ;
+    font-size: 15px ;
+    line-height: 24px ;
+    color:#ffffff;
+    padding-bottom: 52px;
+    font-family: Arial;
+    margin-bottom: 42px;
+    margin-left: 40px;
+}
+.intro-makeafriend {
+    width: 207px;
+    height: 52px;
+    font-family: Georgia;
+    font-weight: 400 ;
+    font-size: 17px ;
+    line-height: 22.1px ;
+    background: #F1CDB3;
+    color: #292929;
+    padding: 15px, 45px;
+    text-decoration: none;
+    border-radius: 1000px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.puppy {
+    width: 698px;
+    height: 728px;
+    margin-left: 42px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+}
+.title {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    text-align: right;
+}
+.fearures {
+    padding: 94px 275px 404px 635px;
+}
+.f-title {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 800px;
+    margin-top: -400px;
+}
+.f-description {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 800px;
+}
